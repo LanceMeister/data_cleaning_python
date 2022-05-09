@@ -6,7 +6,7 @@ df
 # %%
 import pandera as pa
 import numpy as np
-
+# add to this is Domain knowledge or external knowledge 
 schema = pa.DataFrameSchema({
     'name': pa.Column(pa.String),
     'lat': pa.Column(

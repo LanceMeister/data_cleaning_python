@@ -11,6 +11,7 @@ df = pd.DataFrame({
 df
 
 # %%
+# pyarrow is a popular serializtion format
 import pyarrow as pa
 
 schema = pa.schema([

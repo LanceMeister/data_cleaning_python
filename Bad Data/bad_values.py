@@ -2,7 +2,7 @@
 import pandas as pd
 
 # %%
-df = pd.read_csv('metrics.csv', parse_dates=['time'])
+df = pd.read_csv('csv/metrics.csv', parse_dates=['time'])
 df.sample(10)
 
 # %%
